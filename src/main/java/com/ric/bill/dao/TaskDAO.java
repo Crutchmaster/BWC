@@ -14,4 +14,5 @@ public interface TaskDAO {
 	public Task getByTguid(Task task, String tguid);
 	public Boolean getChildAnyErr(Task task);
 	public Task getByCd(String cd); // новый метод 2
+	public Task getById(Integer id);
 }
